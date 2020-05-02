@@ -69,3 +69,4 @@ tools/MapAtmosFixer/MapAtmosFixer/bin/*
 
 # Ignore database config file
 /dbconfig.txt
+/config/dbconfig.txt
