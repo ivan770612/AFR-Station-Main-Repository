@@ -68,5 +68,4 @@ tools/MapAtmosFixer/MapAtmosFixer/bin/*
 /_maps/templates.dm
 
 # Ignore database config file
-/dbconfig.txt
 /config/dbconfig.txt
