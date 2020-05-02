@@ -9,9 +9,9 @@
 	antag_flag = ROLE_MONKEY
 	false_report_weight = 1
 
-	required_players = 20
+	required_players = 3
 	required_enemies = 1
-	recommended_enemies = 1
+	recommended_enemies = 2
 
 	restricted_jobs = list("Prisoner", "Cyborg", "AI")
 

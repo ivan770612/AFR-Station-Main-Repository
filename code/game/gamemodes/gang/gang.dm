@@ -20,9 +20,9 @@ GLOBAL_VAR_INIT(deaths_during_shift, 0)
 	config_tag = "families"
 	antag_flag = ROLE_FAMILIES
 	false_report_weight = 5
-	required_players = 40
-	required_enemies = 6
-	recommended_enemies = 6
+	required_players = 4
+	required_enemies = 2
+	recommended_enemies = 3
 	announce_span = "danger"
 	announce_text = "Grove For Lyfe!"
 	reroll_friendly = FALSE

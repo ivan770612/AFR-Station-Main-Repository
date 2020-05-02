@@ -38,10 +38,10 @@
 	false_report_weight = 10
 	restricted_jobs = list("Prisoner","Chaplain","AI", "Cyborg", "Security Officer", "Warden", "Detective", "Head of Security", "Captain", "Head of Personnel")
 	protected_jobs = list()
-	required_players = 29
-	required_enemies = 4
-	recommended_enemies = 4
-	enemy_minimum_age = 14
+	required_players = 3
+	required_enemies = 2
+	recommended_enemies = 3
+	enemy_minimum_age = 0
 
 	announce_span = "cult"
 	announce_text = "Some crew members are trying to start a cult to Nar'Sie!\n\

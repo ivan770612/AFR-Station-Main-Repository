@@ -8,10 +8,10 @@
 	report_type = "wizard"
 	antag_flag = ROLE_WIZARD
 	false_report_weight = 10
-	required_players = 20
+	required_players = 3
 	required_enemies = 1
 	recommended_enemies = 1
-	enemy_minimum_age = 14
+	enemy_minimum_age = 0
 	round_ends_with_antag_death = 1
 	announce_span = "danger"
 	announce_text = "There is a space wizard attacking the station!\n\

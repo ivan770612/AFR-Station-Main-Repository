@@ -15,10 +15,10 @@
 	false_report_weight = 10
 	restricted_jobs = list("Prisoner","Security Officer", "Warden", "Detective", "AI", "Cyborg","Captain", "Head of Personnel", "Head of Security", "Chief Engineer", "Research Director", "Chief Medical Officer")
 	required_jobs = list(list("Captain"=1),list("Head of Personnel"=1),list("Head of Security"=1),list("Chief Engineer"=1),list("Research Director"=1),list("Chief Medical Officer"=1)) //Any head present
-	required_players = 30
-	required_enemies = 2
-	recommended_enemies = 3
-	enemy_minimum_age = 14
+	required_players = 4
+	required_enemies = 1
+	recommended_enemies = 2
+	enemy_minimum_age = 0
 
 	announce_span = "Revolution"
 	announce_text = "Some crewmembers are attempting a coup!\n\
