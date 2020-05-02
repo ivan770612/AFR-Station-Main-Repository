@@ -31,6 +31,33 @@
 	disguise_fail_health = 50
 	changesource_flags = MIRROR_BADMIN | WABBAJACK
 
+
+/datum/species/synth/terminator
+	name = "Terminator"
+	id = "terminator"
+	armor = 65
+	inherent_traits = list(TRAIT_NOLIMBDISABLE,TRAIT_NOHUNGER,TRAIT_PIERCEIMMUNE,TRAIT_IGNORESLOWDOWN,TRAIT_IGNOREDAMAGESLOWDOWN,TRAIT_STUNIMMUNE,TRAIT_SLEEPIMMUNE,TRAIT_PUSHIMMUNE,TRAIT_VIRUSIMMUNE,TRAIT_NODISMEMBER,TRAIT_STRONG_GRABBER,TRAIT_FEARLESS)
+	mutanteyes = /obj/item/organ/eyes/night_vision
+	species_traits = list(NOTRANSSTING)
+	punchdamagelow = 20
+	punchdamagehigh = 30
+	punchstunthreshold = 19
+	disguise_fail_health = 60
+	changesource_flags = MIRROR_BADMIN | WABBAJACK
+
+/datum/species/synth/terminator/upgraded // damn. the role to rule them all.
+	name = "Upgraded Terminator"
+	id = "terminator_upgraded"
+	armor = 85
+	inherent_traits = list(TRAIT_NOLIMBDISABLE,TRAIT_NOHUNGER,TRAIT_PIERCEIMMUNE,TRAIT_IGNORESLOWDOWN,TRAIT_IGNOREDAMAGESLOWDOWN,TRAIT_STUNIMMUNE,TRAIT_THERMAL_VISION,TRAIT_SLEEPIMMUNE,TRAIT_PUSHIMMUNE,TRAIT_VIRUSIMMUNE,TRAIT_NODISMEMBER,TRAIT_STRONG_GRABBER,TRAIT_FEARLESS)
+	mutanteyes = /obj/item/organ/eyes/night_vision
+	species_traits = list(NOTRANSSTING)
+	punchdamagelow = 30
+	punchdamagehigh = 45
+	punchstunthreshold = 27
+	disguise_fail_health = 20
+	changesource_flags = MIRROR_BADMIN | WABBAJACK
+
 /datum/species/synth/on_species_gain(mob/living/carbon/human/H, datum/species/old_species)
 	..()
 	assume_disguise(old_species, H)
