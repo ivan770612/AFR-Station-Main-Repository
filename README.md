@@ -93,6 +93,6 @@ To enable an away mission open `config/awaymissionconfig.txt` and uncomment one 
 
 ## CREDITS
 
-- **/tg/station:** Full Game Code.
+- **/tg/station:** Used codebase.
 - **Dimon64, Ivan770612, Enardonn:** Playtesting.
 - **Valve Corporation:** Weapon Sounds, VOX Announcements.
