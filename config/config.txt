@@ -236,19 +236,19 @@ CHECK_RANDOMIZER
 
 ## set a server location for world reboot. Don't include the byond://, just give the address and port.
 ## Don't set this to the same server, BYOND will automatically restart players to the server when it has restarted.
-# SERVER byond://178.167.57.30:27015
+SERVER byond://178.167.57.30:27015
 
 ## forum address
-# FORUMURL https://discord.gg/RGJhnge
+FORUMURL https://discord.gg/RGJhnge
 
 ## Wiki address
-# WIKIURL http://www.tgstation13.org/wiki
+WIKIURL http://www.tgstation13.org/wiki
 
 ## Rules address
-# RULESURL https://discord.gg/RGJhnge
+RULESURL https://discord.gg/RGJhnge
 
 ## Github address
-# GITHUBURL https://github.com/PythSource/AFR-Station-Main-Repository
+GITHUBURL https://github.com/PythSource/AFR-Station-Main-Repository
 
 ## Round specific stats address
 ## Link to round specific parsed logs; IE statbus. It is appended with the RoundID automatically by ticker/Reboot()
@@ -264,10 +264,10 @@ CHECK_RANDOMIZER
 ## Github repo id
 ##This can be found by going to https://api.github.com/users/<user name here>/repos
 ##Or https://api.github.com/orgs/<org name here>/repos if the repo owner is an organization
-# GITHUBREPOID 260546369
+GITHUBREPOID 260546369
 
 ## Ban appeals URL - usually for a forum or wherever people should go to contact your admins.
-# BANAPPEALS https://discord.gg/RGJhnge
+BANAPPEALS https://discord.gg/RGJhnge
 
 ## System command that invokes youtube-dl, used by Play Internet Sound.
 ## You can install youtube-dl with
