@@ -11,8 +11,8 @@ compile. This'll take a little while, and if everything's done right you'll get
 a message like this:
 
 ```
-saving station.dmb (DEBUG mode)
-station.dmb - 0 errors, 0 warnings
+saving afrstation.dmb (DEBUG mode)
+afrstation.dmb - 0 errors, 0 warnings
 ```
 
 If you see any errors or warnings, something has gone wrong - possibly a corrupt
@@ -76,8 +76,6 @@ AFR Station currently comes equipped with these maps.
 * [BoxStation](https://wiki.beestation13.com/view/Boxstation)
 * [MetaStation](https://wiki.beestation13.com/view/MetaStation)
 * [PubbyStation](https://wiki.beestation13.com/view/PubbyStation)
-* [DonutStation](https://wiki.beestation13.com/view/Donutstation)
-
 
 All maps have their own code file that is in the base of the _maps directory. Maps are loaded dynamically when the game starts. Follow this guideline when adding your own map, to your fork, for easy compatibility.
 
@@ -95,6 +93,6 @@ To enable an away mission open `config/awaymissionconfig.txt` and uncomment one 
 
 ## CREDITS
 
-- **TGStation:** Full Game Code.
+- **/tg/station:** Full Game Code.
 - **Dimon64, Ivan770612, Enardonn:** Playtesting.
 - **Valve Corporation:** Weapon Sounds, VOX Announcements.
