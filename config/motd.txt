@@ -1,0 +1,4 @@
+<h1>Welcome to AFR Station!</h1>
+
+<br><b>GitHub:	<a href="https://github.com/IDEXV/AFR-Station-Main-Repository">Link</a></b>
+<br><b>Discord:	<a href="https://discord.gg/RGJhnge">Link</a></b>
