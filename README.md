@@ -1,5 +1,8 @@
 # AFR Station Source Code
-
+![Build](https://github.com/pythsource/AFR-Station-Main-Repository/workflows/Build/badge.svg)
+* **Code:** https://github.com/pythsource/AFR-Station-Main-Repository
+* **Wiki:** https://tgstation13.org/wiki/Main_Page
+* **AFR Station Discord:** https://discord.gg/RGJhnge
 ## INSTALLATION
 
 First-time installation should be fairly straightforward. First, you'll need
