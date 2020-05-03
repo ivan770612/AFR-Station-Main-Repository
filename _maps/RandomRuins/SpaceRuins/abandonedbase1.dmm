@@ -1,0 +1,96 @@
+"a" = (/turf/template_noop,/area/template_noop)
+"b" = (/obj/effect/spawner/structure/window/reinforced,/turf/open/floor/plating,/area/ruin/powered)
+"c" = (/turf/closed/wall/r_wall,/area/ruin/powered)
+"d" = (/obj/machinery/computer/communications,/turf/open/floor/plasteel,/area/ruin/powered)
+"e" = (/obj/machinery/computer/camera_advanced,/turf/open/floor/plasteel,/area/ruin/powered)
+"f" = (/obj/machinery/computer/card,/turf/open/floor/plasteel,/area/ruin/powered)
+"g" = (/obj/machinery/computer/secure_data,/turf/open/floor/plasteel,/area/ruin/powered)
+"h" = (/turf/open/floor/plasteel,/area/ruin/powered)
+"i" = (/obj/effect/decal/cleanable/blood/bubblegum,/mob/living/simple_animal/hostile/syndicate/space/stormtrooper,/turf/open/floor/plasteel,/area/ruin/powered)
+"j" = (/obj/effect/spawner/lootdrop/armory_contraband/metastation,/turf/open/floor/plasteel,/area/ruin/powered)
+"k" = (/mob/living/simple_animal/hostile/syndicate/space/stormtrooper,/turf/open/floor/plasteel,/area/ruin/powered)
+"l" = (/obj/effect/decal/cleanable/blood/bubblegum,/turf/open/floor/plasteel,/area/ruin/powered)
+"m" = (/obj/effect/decal/cleanable/blood/bubblegum,/obj/machinery/computer/teleporter,/turf/open/floor/engine,/area/ruin/powered)
+"n" = (/obj/machinery/teleport/station,/turf/open/floor/engine,/area/ruin/powered)
+"o" = (/obj/machinery/teleport/hub,/turf/open/floor/engine,/area/ruin/powered)
+"p" = (/obj/machinery/door/airlock/command,/turf/open/floor/plasteel,/area/ruin/powered)
+"q" = (/obj/machinery/door/airlock/medical,/turf/open/floor/plasteel,/area/ruin/powered)
+"r" = (/turf/open/floor/engine,/area/ruin/powered)
+"s" = (/mob/living/simple_animal/hostile/syndicate/space/stormtrooper,/turf/open/floor/engine,/area/ruin/powered)
+"t" = (/obj/structure/closet/crate/large,/obj/effect/spawner/lootdrop/armory_contraband/metastation,/obj/effect/spawner/lootdrop/armory_contraband/metastation,/obj/effect/spawner/lootdrop/armory_contraband/metastation,/turf/open/floor/pod,/area/ruin/powered)
+"u" = (/turf/open/floor/pod,/area/ruin/powered)
+"v" = (/obj/effect/decal/cleanable/blood/bubblegum,/obj/effect/gibspawner/human,/turf/open/floor/engine,/area/ruin/powered)
+"w" = (/obj/effect/spawner/lootdrop/armory_contraband/metastation,/turf/open/floor/engine,/area/ruin/powered)
+"x" = (/obj/effect/decal/cleanable/blood/bubblegum,/turf/open/floor/engine,/area/ruin/powered)
+"y" = (/obj/effect/decal/cleanable/blood/bubblegum,/mob/living/simple_animal/hostile/syndicate/space/stormtrooper,/turf/open/floor/engine,/area/ruin/powered)
+"z" = (/obj/machinery/door/airlock/maintenance_hatch,/turf/open/floor/engine,/area/ruin/powered)
+"A" = (/obj/effect/mob_spawn/human/doctor,/turf/open/floor/plasteel,/area/ruin/powered)
+"B" = (/obj/machinery/door/airlock/public/glass,/turf/open/floor/plasteel,/area/ruin/powered)
+"C" = (/obj/effect/spawner/lootdrop/armory_contraband/metastation,/turf/open/floor/plating,/area/ruin/powered)
+"D" = (/obj/effect/decal/cleanable/blood/bubblegum,/obj/item/wallframe/apc,/obj/effect/gibspawner/human,/turf/open/floor/plating,/area/ruin/powered)
+"E" = (/obj/machinery/door/airlock/maintenance_hatch,/obj/effect/mapping_helpers/airlock/locked,/turf/open/floor/pod,/area/ruin/powered)
+"F" = (/obj/structure/table,/turf/open/floor/engine,/area/ruin/powered)
+"G" = (/obj/effect/decal/cleanable/blood/bubblegum,/obj/structure/table,/turf/open/floor/engine,/area/ruin/powered)
+"H" = (/obj/machinery/door/airlock/engineering,/turf/open/floor/plating,/area/ruin/powered)
+"I" = (/obj/effect/decal/cleanable/blood/bubblegum,/turf/open/floor/plating,/area/ruin/powered)
+"J" = (/obj/structure/closet/crate,/turf/open/floor/plating,/area/ruin/powered)
+"K" = (/obj/machinery/door/airlock/research,/turf/open/floor/plasteel,/area/ruin/powered)
+"L" = (/obj/structure/closet,/turf/open/floor/plasteel,/area/ruin/powered)
+"M" = (/obj/machinery/chem_master,/turf/open/floor/plasteel,/area/ruin/powered)
+"N" = (/obj/machinery/chem_dispenser/fullupgrade,/turf/open/floor/plasteel,/area/ruin/powered)
+"O" = (/obj/machinery/chem_heater,/turf/open/floor/plasteel,/area/ruin/powered)
+"P" = (/obj/structure/window/reinforced,/turf/open/floor/plasteel,/area/ruin/powered)
+"Q" = (/obj/machinery/door/window/brigdoor/southleft,/turf/open/floor/plasteel,/area/ruin/powered)
+
+(1,1,1) = {"
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaabbbbbccccccaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaabdefgchijhcaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaccbccaaabhjkhcjhlhcaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaacmnocaaaccpcccccqccaaaaaaaaaaaaaaaaaaaaaa
+aaaaacccccrsrcccbclkjlchlhhccccaaaaaaaaaaaaaaaaaaa
+aaaaacttucvwxryzwzAlhhBhhklcCDcaaaaaaaaaaaaaaaaaaa
+aaaaacttuErFGFFcbcjhlkclhjhHIJbaaaaaaaaaaaaaaaaaaa
+aaaaacttucccccccaccbbccccKcccbbaaaaaaaaaaaaaaaaaaa
+aaaaacccccaaaaaaaaaaaacLhjhLcaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaacMkhhMcaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaacNhhjNcaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaacOjhkOcaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaccPPQccaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaclhllhcaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaachhlhlcaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaacccbcccaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+"}
