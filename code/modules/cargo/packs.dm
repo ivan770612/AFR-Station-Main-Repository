@@ -472,6 +472,56 @@
 					/obj/item/clothing/suit/armor/bulletproof)
 	crate_name = "bulletproof armor crate"
 
+/datum/supply_pack/security/armory/secpistols
+	name = "Glock 17 Weapon Crate"
+	desc = "Contains four licensed Glock 17's for your security force. Requires Armory access to open."
+	cost = 1200
+	contains = list(/obj/item/gun/ballistic/automatic/pistol/secpistol,
+					/obj/item/gun/ballistic/automatic/pistol/secpistol,
+					/obj/item/gun/ballistic/automatic/pistol/secpistol,
+					/obj/item/gun/ballistic/automatic/pistol/secpistol)
+	crate_name = "glock 17 weapon crate"
+
+/datum/supply_pack/security/armory/secpistolammo
+	name = "10mm Ammunition Crate"
+	desc = "Contains five magazines compatible with Glock 17 and other pistols. Requires Armory access to open."
+	cost = 700
+	contains = list(/obj/item/ammo_box/magazine/m10mm,
+					/obj/item/ammo_box/magazine/m10mm,
+					/obj/item/ammo_box/magazine/m10mm,
+					/obj/item/ammo_box/magazine/m10mm,
+					/obj/item/ammo_box/magazine/m10mm)
+	crate_name = "ammunition weapon crate"
+
+/datum/supply_pack/security/armory/ak47
+	name = "AK-47 Weapon Crate"
+	desc = "Contains three stolen AK-47's for your security force. Requires Armory access to open."
+	cost = 1350
+	contains = list(/obj/item/gun/ballistic/automatic/ak47,
+					/obj/item/gun/ballistic/automatic/ak47,
+					/obj/item/gun/ballistic/automatic/ak47)
+	crate_name = "ak47 weapon crate"
+
+/datum/supply_pack/security/armory/m4a1
+	name = "M4A1 Weapon Crate"
+	desc = "Contains three licensed M4A1's for your security force. Requires Armory access to open."
+	cost = 1500
+	contains = list(/obj/item/gun/ballistic/automatic/m4a1,
+					/obj/item/gun/ballistic/automatic/m4a1,
+					/obj/item/gun/ballistic/automatic/m4a1)
+	crate_name = "m4a1 weapon crate"
+
+/datum/supply_pack/security/armory/ammoak
+	name = "5.56mm Ammunition Crate"
+	desc = "Contains five magazines compatible with AK-47 and other assault rifles. Requires Armory access to open."
+	cost = 1150
+	contains = list(/obj/item/ammo_box/magazine/m556,
+					/obj/item/ammo_box/magazine/m556,
+					/obj/item/ammo_box/magazine/m556,
+					/obj/item/ammo_box/magazine/m556,
+					/obj/item/ammo_box/magazine/m556)
+	crate_name = "m4a1 weapon crate"
+
 /datum/supply_pack/security/armory/bullethelmets
 	name = "Bulletproof Helmets Crate"
 	desc = "Contains three bulletproof helmets. Requires Armory access to open."

@@ -63,6 +63,24 @@
 	mag_type = /obj/item/ammo_box/magazine/internal/shot/com
 	w_class = WEIGHT_CLASS_HUGE
 
+/obj/item/gun/ballistic/shotgun/automatic/spas
+	name = "SPAS-12"
+	desc = "The Franchi SPAS-12 is a combat shotgun manufactured by Italian firearms company Franchi from 1979 to 2000. The SPAS-12 is a dual-mode shotgun, adjustable for semi-automatic or pump-action operation. This one is only semi-automatic."
+	icon_state = "spas"
+	item_state = "shotgun_combat"
+	fire_delay = 5
+	mag_type = /obj/item/ammo_box/magazine/internal/shot/com
+	w_class = WEIGHT_CLASS_HUGE
+
+/obj/item/gun/ballistic/shotgun/automatic/remington
+	name = "Remington 870"
+	desc = "The Remington Model 870 is a pump-action shotgun manufactured by Remington Arms Company, LLC. It is widely used by the public for sport shooting, hunting, and self-defense and used by law enforcement and military organizations worldwide."
+	icon_state = "remington"
+	item_state = "shotgun_combat"
+	fire_delay = 5
+	mag_type = /obj/item/ammo_box/magazine/internal/shot/com
+	w_class = WEIGHT_CLASS_HUGE
+
 //Dual Feed Shotgun
 
 /obj/item/gun/ballistic/shotgun/automatic/dual_tube

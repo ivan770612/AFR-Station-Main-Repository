@@ -25,6 +25,18 @@
 	desc= "A gun magazine. Loaded with rounds which penetrate armour, but are less effective against normal targets."
 	ammo_type = /obj/item/ammo_casing/c10mm/ap
 
+/obj/item/ammo_box/magazine/m10mm/sp
+	name = "pistol magazine (10mm SP)"
+	icon_state = "9x19pS"
+	desc= "A gun magazine. Loaded with soporific rounds. They will put targets to sleep."
+	ammo_type = /obj/item/ammo_casing/c10mm/sp
+
+/obj/item/ammo_box/magazine/m10mm/para
+	name = "pistol magazine (10mm PB)"
+	icon_state = "9x19pP"
+	desc= "A gun magazine. Loaded with parabellum rounds. They are extremely effective against unarmored and armored targets, but they are very expensive."
+	ammo_type = /obj/item/ammo_casing/c10mm/para
+
 /obj/item/ammo_box/magazine/m45
 	name = "handgun magazine (.45)"
 	icon_state = "45-8"

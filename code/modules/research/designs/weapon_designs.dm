@@ -114,6 +114,196 @@
 	category = list("Weapons")
 	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
 
+/datum/design/ak
+	name = "AK-47"
+	desc = "The AK-47, officially known as the Avtomat Kalashnikova, is a gas-operated, 7.62×39mm assault rifle, developed in the Soviet Union by Mikhail Kalashnikov."
+	id = "a47"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 9000)
+	build_path = /obj/item/gun/ballistic/automatic/ak47
+	category = list("Weapons")
+	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
+
+/datum/design/m4
+	name = "M4A1"
+	desc = "The M4 Carbine is a shorter and lighter variant of the M16A2 assault rifle."
+	id = "m41"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 10000)
+	build_path = /obj/item/gun/ballistic/automatic/m4a1
+	category = list("Weapons")
+	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
+
+/datum/design/mac
+	name = "Ingram MAC-10"
+	desc = "The Military Armament Corporation Model 10, officially abbreviated as 'M10' or 'M-10', and more commonly known as the MAC-10, is a compact, blowback operated machine pistol that was developed by Gordon B. Ingram in 1964."
+	id = "mc10"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 8000)
+	build_path = /obj/item/gun/ballistic/automatic/mac10
+	category = list("Weapons")
+	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
+
+/datum/design/speser
+	name = "SPAS-12"
+	desc = "The Franchi SPAS-12 is a combat shotgun manufactured by Italian firearms company Franchi from 1979 to 2000."
+	id = "spa"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 6000)
+	build_path = /obj/item/gun/ballistic/shotgun/automatic/spas
+	category = list("Weapons")
+	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
+
+/datum/design/berett
+	name = "Beretta 92FS"
+	desc = "An old pistol, previously used by station's security forces. Uses 10mm ammo, just like the Glock and Stechkin pistol."
+	id = "bretta"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 5000)
+	build_path = /obj/item/gun/ballistic/automatic/pistol/beretta
+	category = list("Weapons")
+	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
+
+/datum/design/glosk
+	name = "Glock 17"
+	desc = "Standart pistol, commonly used by station's security forces. Uses 10mm ammo, just like the Syndicate's Stechkin pistol."
+	id = "gleck"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 5000)
+	build_path = /obj/item/gun/ballistic/automatic/pistol/secpistol
+	category = list("Weapons")
+	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
+
+/datum/design/tecos10
+	name = "Intratec TEC-DC10"
+	desc = "The Intratec TEC-9, TEC-DC9, KG-99 and AB-10 were a blowback-operated line of semi-automatic pistols."
+	id = "tc10"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 8000)
+	build_path = /obj/item/gun/ballistic/automatic/tec10
+	category = list("Weapons")
+	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
+
+/datum/design/macs9
+	name = "M9"
+	desc = "A pistol, used by AFR Marine Corps. Uses 10mm ammo, just like the other pistols."
+	id = "mac9"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 5000)
+	build_path = /obj/item/gun/ballistic/automatic/pistol/m9
+	category = list("Weapons")
+	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
+
+/datum/design/mpes5
+	name = "Heckler & Koch MP5"
+	desc = "The MP5 (German: Maschinenpistole 5) is a 9x19mm Parabellum submachine gun, developed in the 1960s by a team of engineers from the German small arms manufacturer Heckler & Koch"
+	id = "mpe5"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 9000)
+	build_path = /obj/item/gun/ballistic/automatic/mp5
+	category = list("Weapons")
+	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
+
+/datum/design/mpes7
+	name = "Heckler & Koch MP7"
+	desc = "The Heckler & Koch MP7 (German: Maschinenpistole 7) is a personal defence weapon chambered for the HK 4.30mm armor-piercing cartridge designed by German defence manufacturer Heckler & Koch."
+	id = "mpe7"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 8000)
+	build_path = /obj/item/gun/ballistic/automatic/mp7
+	category = list("Weapons")
+	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
+
+/datum/design/uzos19
+	name = "Type U10 Uzi"
+	desc = "A lightweight, burst-fire submachine gun, for when you really want someone dead. Uses 9mm rounds."
+	id = "uzie10"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 8000)
+	build_path = /obj/item/gun/ballistic/automatic/uzi10
+	category = list("Weapons")
+	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
+
+/datum/design/scorpionio
+	name = "Scorpion"
+	desc = "The Skorpion vz. 61 is a Czechoslovak machine pistol developed in 1959 by Miroslav (1924–1970) and produced under the official designation Samopal vzor 61 ('submachine gun model 1961') by the zbrojovka arms factory in Uherski Brod from 1961 to 1979."
+	id = "scorpione"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 8000)
+	build_path = /obj/item/gun/ballistic/automatic/scorpion
+	category = list("Weapons")
+	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
+
+/datum/design/ppshes
+	name = "PPSh-41"
+	desc = "The PPSh-41 is a Soviet submachine gun designed by Georgy Shpagin as a cheap, reliable, and simplified alternative to the PPD-40."
+	id = "ppshe"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 20000)
+	build_path = /obj/item/gun/ballistic/automatic/ppsh
+	category = list("Weapons")
+	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
+
+/datum/design/m633
+	name = "M60"
+	desc = "The M60, officially the United States Machine Gun, Caliber 7.62 mm, M60, is a family of American general-purpose machine guns firing 7.62×51mm NATO cartridges from a disintegrating belt of M13 links."
+	id = "msix"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 20000)
+	build_path = /obj/item/gun/ballistic/automatic/m90
+	category = list("Weapons")
+	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
+
+/datum/design/remingototo
+	name = "Remington 870"
+	desc = "The Remington Model 870 is a pump-action shotgun manufactured by Remington Arms Company, LLC."
+	id = "remingtones"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 6000)
+	build_path = /obj/item/gun/ballistic/shotgun/automatic/remington
+	category = list("Weapons")
+	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
+
+/datum/design/mmagos
+	name = "box magazine (7.12x82mm)"
+	desc = "A magazine compatible with M60 and L6 SAW."
+	id = "gmagg"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 4000)
+	build_path = /obj/item/ammo_box/magazine/mm712x82
+	category = list("Ammo")
+	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
+
+/datum/design/milmag
+	name = "pistol magazine (10mm)"
+	desc = "A magazine compatible with Beretta 92FS, Glock 17 and other pistols."
+	id = "pismag"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 2500)
+	build_path = /obj/item/ammo_box/magazine/m10mm
+	category = list("Ammo")
+	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
+
+/datum/design/heavmag
+	name = "toploader magazine (5.56mm)"
+	desc = "A magazine compatible with AK-47, M4A1 and other assault rifles."
+	id = "10mag"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 3500)
+	build_path = /obj/item/ammo_box/magazine/m556
+	category = list("Ammo")
+	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
+
+/datum/design/ninemag
+	name = "uzi magazine (9mm)"
+	desc = "A magazine compatible with UZI, MAC-10 and TEC-10."
+	id = "9mag"
+	build_type = PROTOLATHE
+	materials = list(/datum/material/iron = 1500)
+	build_path = /obj/item/ammo_box/magazine/uzim9mm
+	category = list("Ammo")
+	departmental_flags = DEPARTMENTAL_FLAG_SECURITY
+
 /datum/design/nuclear_gun
 	name = "Advanced Energy Gun"
 	desc = "An energy gun with an experimental miniaturized reactor."

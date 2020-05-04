@@ -605,6 +605,24 @@
 	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 10000)
 	export_price = 5000
 
+/datum/techweb_node/weaponprod
+	id = "weaponprod"
+	display_name = "Weapon Production Technology"
+	description = "Our researchers have found ways to produce new weapons for security."
+	prereq_ids = list("beam_weapons")
+	design_ids = list("a47", "m41", "mc10", "spa", "bretta", "gleck", "mac9", "mpe5", "mpe7", "uzie10", "tc10", "9mag", "10mag", "pismag")
+	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 10000)
+	export_price = 10000
+
+/datum/techweb_node/weaponprod2
+	id = "weaponprod2"
+	display_name = "Advanced Weapon Production Technology"
+	description = "Our researchers have found ways to produce even more weapons for security. Some of them are stolen from the Syndicate."
+	prereq_ids = list("weaponprod")
+	design_ids = list("msix", "scorpione", "ppshe", "gmagg", "remingtones")
+	research_costs = list(TECHWEB_POINT_TYPE_GENERIC = 10000)
+	export_price = 20000
+
 /datum/techweb_node/adv_weaponry
 	id = "adv_weaponry"
 	display_name = "Advanced Weapon Development Technology"

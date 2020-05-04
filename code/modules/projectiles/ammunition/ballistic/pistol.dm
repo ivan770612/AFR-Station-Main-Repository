@@ -21,6 +21,16 @@
 	desc = "A 10mm incendiary bullet casing."
 	projectile_type = /obj/projectile/bullet/incendiary/c10mm
 
+/obj/item/ammo_casing/c10mm/sp
+	name = "10mm soporific bullet casing"
+	desc = "A 10mm soporific bullet casing."
+	projectile_type = /obj/projectile/bullet/c10mm_sleepy
+
+/obj/item/ammo_casing/c10mm/para
+	name = "10mm parabellum bullet casing"
+	desc = "A 10mm parabellum bullet casing."
+	projectile_type = /obj/projectile/bullet/c10mm_para
+
 // 9mm (Stechkin APS)
 
 /obj/item/ammo_casing/c9mm

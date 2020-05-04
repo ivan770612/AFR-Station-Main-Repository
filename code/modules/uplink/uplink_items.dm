@@ -393,6 +393,112 @@ GLOBAL_LIST_INIT(uplink_items, subtypesof(/datum/uplink_item))
 	surplus = 40
 	include_modes = list(/datum/game_mode/nuclear)
 
+/datum/uplink_item/dangerous/spas12
+	name = "SPAS-12"
+	desc = "The Franchi SPAS-12 is a combat shotgun manufactured by Italian firearms company Franchi from 1979 to 2000. \
+			The SPAS-12 is a dual-mode shotgun, adjustable for semi-automatic or pump-action operation. \
+			This one is only semi-automatic."
+	item = /obj/item/gun/ballistic/shotgun/automatic/spas
+	cost = 14
+	include_modes = list(/datum/game_mode/nuclear)
+
+/datum/uplink_item/dangerous/remington
+	name = "Remington 870"
+	desc = "The Remington Model 870 is a pump-action shotgun manufactured by Remington Arms Company, LLC. \
+			It is widely used by the public for sport shooting, hunting, and self-defense. \
+			This model was stolen from another Nanotrasen armory."
+	item = /obj/item/gun/ballistic/shotgun/automatic/remington
+	cost = 12
+	include_modes = list(/datum/game_mode/nuclear)
+
+/datum/uplink_item/dangerous/ak47
+	name = "AK-47"
+	desc = "The AK-47, officially known as the Avtomat Kalashnikova, is 7.62×39mm assault rifle. \
+	 		It is the originating firearm of the Kalashnikov rifle (or 'AK') family. 47 refers to the year it was finished."
+	item = /obj/item/gun/ballistic/automatic/ak47
+	cost = 13
+	include_modes = list(/datum/game_mode/nuclear)
+
+/datum/uplink_item/dangerous/m4a1
+	name = "M4A1"
+	desc = "The M4 is a 5.56×45mm NATO, air-cooled, gas-operated, direct impingement, magazine-fed carbine. \
+			It has a 14.5 in (370 mm) barrel and a telescoping stock."
+	item = /obj/item/gun/ballistic/automatic/m4a1
+	cost = 15
+	include_modes = list(/datum/game_mode/nuclear)
+
+/datum/uplink_item/dangerous/machinegun
+	name = "M60"
+	desc = "The M60, officially the United States Machine Gun. \
+	 		Caliber 7.62 mm, M60, is a family of American general-purpose machine guns firing 7.62×51mm NATO cartridges."
+	item = /obj/item/gun/ballistic/automatic/m90
+	cost = 18
+	include_modes = list(/datum/game_mode/nuclear)
+
+/datum/uplink_item/dangerous/pistol
+	name = "Stechkin Pistol"
+	desc = "A small, easily concealable handgun that uses 10mm auto rounds in 8-round magazines and is compatible \
+			with suppressors."
+	item = /obj/item/gun/ballistic/automatic/pistol
+	cost = 7
+	exclude_modes = list(/datum/game_mode/nuclear/clown_ops)
+
+/datum/uplink_item/dangerous/mac10
+	name = "Ingram MAC-10"
+	desc = "The Military Armament Corporation Model 10, and more commonly known as the MAC-10. \
+			It was developed by Gordon B. Ingram in 1964."
+	item = /obj/item/gun/ballistic/automatic/mac10
+	cost = 10
+	exclude_modes = list(/datum/game_mode/nuclear/clown_ops)
+
+/datum/uplink_item/dangerous/beretta
+	name = "Beretta 92FS"
+	desc = "A small, easily concealable handgun that uses 10mm auto rounds in 8-round magazines. \
+			Previously used by station's security force."
+	item = /obj/item/gun/ballistic/automatic/pistol/beretta
+	cost = 7
+	exclude_modes = list(/datum/game_mode/nuclear/clown_ops)
+
+/datum/uplink_item/dangerous/m9
+	name = "M9"
+	desc = "A small, easily concealable handgun that uses 10mm auto rounds in 8-round magazines. \
+			Commonly used by AFR Marine Corps."
+	item = /obj/item/gun/ballistic/automatic/pistol/m9
+	cost = 7
+	exclude_modes = list(/datum/game_mode/nuclear/clown_ops)
+
+/datum/uplink_item/dangerous/uzi10
+	name = "Type U10 Uzi"
+	desc = "A lightweight, burst-fire submachine gun, for when you really want someone dead. \
+			Currently used by AFR Marine Corps."
+	item = /obj/item/gun/ballistic/automatic/uzi10
+	cost = 10
+	exclude_modes = list(/datum/game_mode/nuclear/clown_ops)
+
+/datum/uplink_item/dangerous/scorpion
+	name = "Scorpion"
+	desc = "The Skorpion vz. 61 is a Czechoslovak machine pistol developed in 1959 by Miroslav. \
+			It was produced under the official designation Samopal vzor 61."
+	item = /obj/item/gun/ballistic/automatic/scorpion
+	cost = 11
+	exclude_modes = list(/datum/game_mode/nuclear/clown_ops)
+
+/datum/uplink_item/dangerous/mp5
+	name = "Heckler & Koch MP5"
+	desc = "The Heckler & Koch MP7 (German: Maschinenpistole 7) is a personal defence weapon. \
+			Chambered for the HK 4.30mm armor-piercing cartridge designed by German defence manufacturer Heckler & Koch."
+	item = /obj/item/gun/ballistic/automatic/mp5
+	cost = 13
+	exclude_modes = list(/datum/game_mode/nuclear/clown_ops)
+
+/datum/uplink_item/dangerous/ppsh
+	name = "PPSh-41"
+	desc = "The PPSh-41 is a Soviet submachine gun designed by Georgy Shpagin. \
+			It is cheap, reliable, and a simplified alternative to the M60."
+	item = /obj/item/gun/ballistic/automatic/ppsh
+	cost = 17
+	include_modes = list(/datum/game_mode/nuclear)
+
 /datum/uplink_item/dangerous/smg
 	name = "C-20r Submachine Gun"
 	desc = "A fully-loaded Scarborough Arms bullpup submachine gun. The C-20r fires .45 rounds with a \
@@ -690,6 +796,29 @@ GLOBAL_LIST_INIT(uplink_items, subtypesof(/datum/uplink_item))
 	cost = 2
 	exclude_modes = list(/datum/game_mode/nuclear/clown_ops)
 
+/datum/uplink_item/ammo/pistolsp
+	name = "10mm Soporific Magazine"
+	desc = "An additional 8-round 10mm magazine; compatible with the Stechkin Pistol. \
+			Loaded with soporific rounds. They can put your target to sleep easily."
+	item = /obj/item/ammo_box/magazine/m10mm/sp
+	cost = 1
+	exclude_modes = list(/datum/game_mode/nuclear/clown_ops)
+
+/datum/uplink_item/ammo/pistolpara
+	name = "10mm Parabellum Magazine"
+	desc = "An additional 8-round 10mm magazine; compatible with the Stechkin Pistol. \
+			Loaded with parabellum rounds. They are extremely effective against unarmored and armored targets, but they are very expensive."
+	item = /obj/item/ammo_box/magazine/m10mm/para
+	cost = 5
+	exclude_modes = list(/datum/game_mode/nuclear/clown_ops)
+
+/datum/uplink_item/ammo/macmag
+	name = "9mm Magazine"
+	desc = "An additional 8-round 9mm magazine, compatible with the MAC-10."
+	item = /obj/item/ammo_box/magazine/uzim9mm
+	cost = 2
+	exclude_modes = list(/datum/game_mode/nuclear/clown_ops)
+
 /datum/uplink_item/ammo/shotgun
 	cost = 2
 	include_modes = list(/datum/game_mode/nuclear)
@@ -725,6 +854,13 @@ GLOBAL_LIST_INIT(uplink_items, subtypesof(/datum/uplink_item))
 			Now 8 times less likely to shoot your pals."
 	cost = 3
 	item = /obj/item/ammo_box/magazine/m12g/slug
+
+/datum/uplink_item/ammo/rifle/m556
+	name = "5.56mm Magazine"
+	desc = "The 5.56mm NATO magazine. It is compatible with AK-47 and other assault rifles."
+	item = /obj/item/ammo_box/magazine/m556
+	cost = 2
+	include_modes = list(/datum/game_mode/nuclear)
 
 /datum/uplink_item/ammo/revolver
 	name = ".357 Speed Loader"

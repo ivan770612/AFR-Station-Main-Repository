@@ -42,7 +42,7 @@
 	rack_sound = 'sound/weapons/gun/pistol/rack.ogg'
 	lock_back_sound = 'sound/weapons/gun/pistol/slide_lock.ogg'
 	bolt_drop_sound = 'sound/weapons/gun/pistol/slide_drop.ogg'
-	
+
 /obj/item/gun/ballistic/automatic/pistol/m1911/no_mag
 	spawnwithmagazine = FALSE
 
@@ -58,7 +58,7 @@
 	rack_sound = 'sound/weapons/gun/pistol/rack.ogg'
 	lock_back_sound = 'sound/weapons/gun/pistol/slide_lock.ogg'
 	bolt_drop_sound = 'sound/weapons/gun/pistol/slide_drop.ogg'
-	
+
 /obj/item/gun/ballistic/automatic/pistol/deagle/gold
 	desc = "A gold plated Desert Eagle folded over a million times by superior martian gunsmiths. Uses .50 AE ammo."
 	icon_state = "deagleg"
@@ -79,6 +79,42 @@
 	burst_size = 3
 	fire_delay = 2
 	actions_types = list(/datum/action/item_action/toggle_firemode)
+
+/obj/item/gun/ballistic/automatic/pistol/secpistol
+	name = "Glock 17"
+	desc = "Standart pistol, commonly used by station's security forces. Uses 10mm ammo, just like the Syndicate's Stechkin pistol."
+	icon_state = "secpistol"
+	w_class = WEIGHT_CLASS_SMALL
+	fire_sound = "sound/weapons/glock.ogg"
+	mag_type = /obj/item/ammo_box/magazine/m10mm
+	can_suppress = FALSE
+
+/obj/item/gun/ballistic/automatic/pistol/beretta
+	name = "Beretta 92FS"
+	desc = "An old pistol, previously used by station's security forces. Uses 10mm ammo, just like the Glock and Stechkin pistol."
+	icon_state = "beretta"
+	w_class = WEIGHT_CLASS_SMALL
+	fire_sound = "sound/weapons/p250.ogg"
+	mag_type = /obj/item/ammo_box/magazine/m10mm
+	can_suppress = FALSE
+
+/obj/item/gun/ballistic/automatic/pistol/m9
+	name = "M9"
+	desc = "A pistol, used by AFR Marine Corps. Uses 10mm ammo, just like the other pistols."
+	icon_state = "m9"
+	w_class = WEIGHT_CLASS_SMALL
+	fire_sound = "sound/weapons/beretta.ogg"
+	mag_type = /obj/item/ammo_box/magazine/m10mm
+	can_suppress = FALSE
+
+/obj/item/gun/ballistic/automatic/pistol/m4a3
+	name = "M4A3"
+	desc = "A pistol, used by AFR Marine Corps. Uses 10mm ammo, just like the other pistols."
+	icon_state = "m4a3"
+	w_class = WEIGHT_CLASS_SMALL
+	fire_sound = "sound/weapons/m4a3.ogg"
+	mag_type = /obj/item/ammo_box/magazine/m10mm
+	can_suppress = FALSE
 
 /obj/item/gun/ballistic/automatic/pistol/stickman
 	name = "flat gun"

@@ -105,6 +105,58 @@
 	mag_display = TRUE
 	rack_sound = 'sound/weapons/gun/pistol/slide_lock.ogg'
 
+/obj/item/gun/ballistic/automatic/mac10
+	name = "Ingram MAC-10"
+	desc = "The Military Armament Corporation Model 10, officially abbreviated as 'M10' or 'M-10', and more commonly known as the MAC-10, is a compact, blowback operated machine pistol that was developed by Gordon B. Ingram in 1964. Uses 9mm rounds."
+	icon_state = "mac10"
+	mag_type = /obj/item/ammo_box/magazine/uzim9mm
+	burst_size = 2
+	fire_delay = 1
+	bolt_type = BOLT_TYPE_OPEN
+	mag_display = TRUE
+	fire_sound = "sound/weapons/mac10.ogg"
+	rack_sound = "sound/weapons/pistollock.ogg"
+	can_suppress = FALSE
+
+/obj/item/gun/ballistic/automatic/tec10
+	name = "Intratec TEC-DC10"
+	desc = "The Intratec TEC-9, TEC-DC9, KG-99 and AB-10 were a blowback-operated line of semi-automatic pistols. Introduced in 2020, the TEC-10 was made of inexpensive molded polymers and a mixture of stamped and milled steel parts. Uses 9mm rounds."
+	icon_state = "tec10"
+	mag_type = /obj/item/ammo_box/magazine/uzim9mm
+	burst_size = 2
+	fire_delay = 1
+	bolt_type = BOLT_TYPE_OPEN
+	mag_display = TRUE
+	fire_sound = "sound/weapons/tec10.ogg"
+	rack_sound = "sound/weapons/pistollock.ogg"
+	can_suppress = FALSE
+
+/obj/item/gun/ballistic/automatic/uzi10
+	name = "Type U10 Uzi"
+	desc = "A lightweight, burst-fire submachine gun, for when you really want someone dead. Currently used by AFR Marine Corps. Uses 9mm rounds."
+	icon_state = "uzi10"
+	mag_type = /obj/item/ammo_box/magazine/uzim9mm
+	burst_size = 2
+	fire_delay = 1
+	bolt_type = BOLT_TYPE_OPEN
+	mag_display = TRUE
+	fire_sound = "sound/weapons/uzi.ogg"
+	rack_sound = "sound/weapons/pistollock.ogg"
+	can_suppress = FALSE
+
+/obj/item/gun/ballistic/automatic/scorpion
+	name = "Scorpion"
+	desc = "The Skorpion vz. 61 is a Czechoslovak machine pistol developed in 1959 by Miroslav (1924–1970) and produced under the official designation Samopal vzor 61 ('submachine gun model 1961') by the zbrojovka arms factory in Uherski Brod from 1961 to 1979."
+	icon_state = "scorpion"
+	mag_type = /obj/item/ammo_box/magazine/uzim9mm
+	burst_size = 2
+	fire_delay = 1
+	bolt_type = BOLT_TYPE_OPEN
+	mag_display = TRUE
+	fire_sound = "sound/weapons/skorpion.ogg"
+	rack_sound = "sound/weapons/pistollock.ogg"
+	can_suppress = FALSE
+
 /obj/item/gun/ballistic/automatic/m90
 	name = "\improper M-90gl Carbine"
 	desc = "A three-round burst 5.56 toploading carbine, designated 'M-90gl'. Has an attached underbarrel grenade launcher which can be toggled on and off."
@@ -201,6 +253,77 @@
 	burst_size = 3
 	fire_delay = 1
 
+/obj/item/gun/ballistic/automatic/ak47
+	name = "AK-47"
+	desc = "The AK-47, officially known as the Avtomat Kalashnikova, is a gas-operated, 7.62×39mm assault rifle, developed in the Soviet Union by Mikhail Kalashnikov. It is the originating firearm of the Kalashnikov rifle (or 'AK') family. 47 refers to the year it was finished."
+	icon_state = "ak47"
+	item_state = "arg"
+	slot_flags = 0
+	mag_type = /obj/item/ammo_box/magazine/m556
+	fire_sound = 'sound/weapons/ak47.ogg'
+	can_suppress = FALSE
+	burst_size = 3
+	fire_delay = 1
+
+/obj/item/gun/ballistic/automatic/m4a1
+	name = "M4A1"
+	desc = "The M4 Carbine is a shorter and lighter variant of the M16A2 assault rifle. The M4 is a 5.56×45mm NATO, air-cooled, gas-operated, direct impingement, magazine-fed carbine. It has a 14.5 in (370 mm) barrel and a telescoping stock."
+	icon_state = "m4a1"
+	item_state = "arg"
+	slot_flags = 0
+	mag_type = /obj/item/ammo_box/magazine/m556
+	fire_sound = 'sound/weapons/m4a1.ogg'
+	can_suppress = FALSE
+	burst_size = 3
+	fire_delay = 1
+
+/obj/item/gun/ballistic/automatic/mp5
+	name = "Heckler & Koch MP5"
+	desc = "The MP5 (German: Maschinenpistole 5) is a 9x19mm Parabellum submachine gun, developed in the 1960s by a team of engineers from the German small arms manufacturer Heckler & Koch GmbH (H&K) of Oberndorf am Neckar. There are over 100 variants of the MP5, including some semi-automatic versions."
+	icon_state = "mp5"
+	item_state = "arg"
+	slot_flags = 0
+	mag_type = /obj/item/ammo_box/magazine/m556
+	fire_sound = 'sound/weapons/mp5.ogg'
+	can_suppress = FALSE
+	burst_size = 3
+	fire_delay = 1
+
+/obj/item/gun/ballistic/automatic/mp7
+	name = "Heckler & Koch MP7"
+	desc = "The Heckler & Koch MP7 (German: Maschinenpistole 7) is a personal defence weapon chambered for the HK 4.30mm armor-piercing cartridge designed by German defence manufacturer Heckler & Koch."
+	icon_state = "mp7"
+	item_state = "arg"
+	slot_flags = 0
+	mag_type = /obj/item/ammo_box/magazine/m556
+	fire_sound = 'sound/weapons/mp7.ogg'
+	can_suppress = FALSE
+	burst_size = 3
+	fire_delay = 1
+
+/obj/item/gun/ballistic/automatic/m39
+	name = "M39 Submachine Gun"
+	desc = "The Armat M39 Submachine Gun (SMG) is an American-made submachine gun used primarily by the AFR Marine Corps as their standard issue SMG."
+	icon_state = "m39"
+	item_state = "arg"
+	slot_flags = 0
+	mag_type = /obj/item/ammo_box/magazine/m556
+	fire_sound = 'sound/weapons/m39.ogg'
+	can_suppress = FALSE
+	burst_size = 3
+	fire_delay = 1
+
+/obj/item/gun/ballistic/automatic/ppsh
+	name = "PPSh-41"
+	desc = "The PPSh-41 is a Soviet submachine gun designed by Georgy Shpagin as a cheap, reliable, and simplified alternative to the PPD-40. Common nickname is 'papasha', meaning 'daddy'."
+	icon_state = "ppsh"
+	item_state = "arg"
+	slot_flags = 0
+	mag_type = /obj/item/ammo_box/magazine/m556
+	fire_sound = 'sound/weapons/ppsh.ogg'
+	can_suppress = FALSE
+	burst_size = 3
+	fire_delay = 0.5
 
 // L6 SAW //
 
@@ -274,6 +397,76 @@
 		return
 	..()
 
+// M90 //
+
+/obj/item/gun/ballistic/automatic/m90
+	name = "M60"
+	desc = "The M60, officially the United States Machine Gun, Caliber 7.62 mm, M60, is a family of American general-purpose machine guns firing 7.62×51mm NATO cartridges from a disintegrating belt of M13 links."
+	icon_state = "machinegun"
+	item_state = "l6closedmag"
+	w_class = WEIGHT_CLASS_HUGE
+	slot_flags = 0
+	mag_type = /obj/item/ammo_box/magazine/mm712x82
+	weapon_weight = WEAPON_HEAVY
+	var/cover_open = FALSE
+	can_suppress = FALSE
+	burst_size = 3
+	fire_delay = 1
+	spread = 5
+	pin = /obj/item/firing_pin
+	bolt_type = BOLT_TYPE_OPEN
+	mag_display = TRUE
+	mag_display_ammo = TRUE
+	tac_reloads = FALSE
+	fire_sound = 'sound/weapons/negev.ogg'
+	rack_sound = 'sound/weapons/chunkyrack.ogg'
+
+
+/obj/item/gun/ballistic/automatic/m90/examine(mob/user)
+	. = ..()
+	. += "<b>alt + click</b> to [cover_open ? "close" : "open"] the dust cover."
+	if(cover_open && magazine)
+		. += "<span class='notice'>It seems like you could use an <b>empty hand</b> to remove the magazine.</span>"
+
+
+/obj/item/gun/ballistic/automatic/m90/AltClick(mob/user)
+	cover_open = !cover_open
+	to_chat(user, "<span class='notice'>You [cover_open ? "open" : "close"] [src]'s cover.</span>")
+	if(cover_open)
+		playsound(user, 'sound/weapons/sawopen.ogg', 60, 1)
+	else
+		playsound(user, 'sound/weapons/sawopen.ogg', 60, 1)
+	update_icon()
+
+
+/obj/item/gun/ballistic/automatic/m90/update_icon()
+	. = ..()
+	add_overlay("machinegun_door_[cover_open ? "open" : "closed"]")
+
+
+/obj/item/gun/ballistic/automatic/m90/afterattack(atom/target as mob|obj|turf, mob/living/user as mob|obj, flag, params)
+	if(cover_open)
+		to_chat(user, "<span class='warning'>[src]'s cover is open! Close it before firing!</span>")
+		return
+	else
+		. = ..()
+		update_icon()
+
+//ATTACK HAND IGNORING PARENT RETURN VALUE
+/obj/item/gun/ballistic/automatic/m90/attack_hand(mob/user)
+	if (loc != user)
+		..()
+		return
+	if (!cover_open)
+		to_chat(user, "<span class='warning'>[src]'s cover is closed! Open it before trying to remove the magazine!</span>")
+		return
+	..()
+
+/obj/item/gun/ballistic/automatic/m90/attackby(obj/item/A, mob/user, params)
+	if(!cover_open && istype(A, mag_type))
+		to_chat(user, "<span class='warning'>[src]'s dust cover prevents a magazine from being fit.</span>")
+		return
+	..()
 
 
 // SNIPER //

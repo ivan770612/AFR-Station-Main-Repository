@@ -34,3 +34,18 @@
 	name = "10mm incendiary bullet"
 	damage = 15
 	fire_stacks = 2
+
+/obj/projectile/bullet/c10mm_sleepy
+	name = "10mm soporific bullet"
+	damage = 0
+
+/obj/projectile/bullet/c10mm_sleepy/on_hit(atom/target, blocked = FALSE)
+	if((blocked != 100) && isliving(target))
+		var/mob/living/L = target
+		L.Sleeping(400)
+	return ..()
+
+/obj/projectile/bullet/c10mm_para
+	name = "10mm parabellum bullet"
+	damage = 40
+	armour_penetration = 30
