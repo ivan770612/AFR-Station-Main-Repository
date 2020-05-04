@@ -278,7 +278,7 @@
 	fire_delay = 1
 
 /obj/item/gun/ballistic/automatic/mp5
-	name = "Heckler & Koch MP5"
+	name = "H&K MP5"
 	desc = "The MP5 (German: Maschinenpistole 5) is a 9x19mm Parabellum submachine gun, developed in the 1960s by a team of engineers from the German small arms manufacturer Heckler & Koch GmbH (H&K) of Oberndorf am Neckar. There are over 100 variants of the MP5, including some semi-automatic versions."
 	icon_state = "mp5"
 	item_state = "arg"
@@ -290,7 +290,7 @@
 	fire_delay = 1
 
 /obj/item/gun/ballistic/automatic/mp7
-	name = "Heckler & Koch MP7"
+	name = "H&K MP7"
 	desc = "The Heckler & Koch MP7 (German: Maschinenpistole 7) is a personal defence weapon chambered for the HK 4.30mm armor-piercing cartridge designed by German defence manufacturer Heckler & Koch."
 	icon_state = "mp7"
 	item_state = "arg"
