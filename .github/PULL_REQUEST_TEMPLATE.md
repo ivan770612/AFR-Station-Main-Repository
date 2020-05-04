@@ -1,6 +1,6 @@
 ## Pull Request Description:
 
-## Why It's Good For The Server:
+## Why It's Good For The Game:
 
 ## Additional Information<!--If required-->:
 
